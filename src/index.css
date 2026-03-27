@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.text{
+  color:#0F172B ;
+}
+.text-y{
+  color: #FE9A00;
+}
+
+.shadow-b{
+-webkit-box-shadow: 4px -18px 13px -5px #000000; 
+box-shadow: 4px -18px 13px -5px #000000;
+}
+
+.bg-blue{
+background: #FFFFFF;
+background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(15, 23, 43, 1) 5%);
+}
+
+::selection{
+  background-color: #fe98007a;
+}
+
