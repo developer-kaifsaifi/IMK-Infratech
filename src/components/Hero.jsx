@@ -17,7 +17,7 @@ bg-size-[60px_60px]"
       <div className="  relative flex flex-col gap-5 items-center justify-center pb-10 pt-80 md:pt-15">
         <div className="bg-[#fe980034] md:scale-100 scale-90 rounded-full border border-[#FE9A00] flex items-center justify-center gap-3 px-5 py-1.5">
           <div className="h-3 w-3 bg-[#FE9A00] rounded-full " />
-          <h5 className="text-[#FE9A00]"> Tusted by 250+ Clients</h5>
+          <h5 className="text-[#FE9A00]"> Trusted by 250+ Clients</h5>
         </div>
         <div>
           <h2 className="md:text-7xl text-4xl text-[#0F172B]  font-extrabold text-center">
