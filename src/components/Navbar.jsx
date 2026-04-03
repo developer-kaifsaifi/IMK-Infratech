@@ -102,16 +102,16 @@ export default function Navbar() {
   return (
     <>
       {/* NAVBAR */}
-      <div className="w-full z-50 md:px-20 fixed top-0 h-20 backdrop-blur-sm flex items-center justify-center">
+      <div className="w-full z-50 md:px-20 fixed  top-0 h-20 backdrop-blur-sm flex items-center justify-center">
         <nav className="w-full flex items-center justify-between md:justify-between">
           
           {/* LOGO */}
-          <div className="h-15 w-15 bg-center bg-cover bg-[url(/assets/imk21re.png)]" style={{ backgroundImage:`url(${logo})`}} />
+          <div className="h-15 w-15 ml-2 bg-center bg-cover " style={{ backgroundImage:`url(${logo})`}} />
 
           {/* HAMBURGER */}
           <TiThMenu
             onClick={() => setIsOpen(true)}
-            className="md:hidden scale-200 fill-[#154E7B] cursor-pointer"
+            className="md:hidden scale-200 mr-6 fill-[#154E7B] cursor-pointer"
           />
 
           {/* DESKTOP MENU */}
