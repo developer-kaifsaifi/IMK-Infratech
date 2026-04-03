@@ -105,7 +105,7 @@ export default function Navbar() {
         <nav className="w-full flex items-center justify-between md:justify-between">
           
           {/* LOGO */}
-          <div className="h-15 w-15 bg-center bg-cover bg-[url(./assets/imk21re.png)]" />
+          <div className="h-15 w-15 bg-center bg-cover bg-[url(/assets/imk21re.png)]" />
 
           {/* HAMBURGER */}
           <GiHamburgerMenu
