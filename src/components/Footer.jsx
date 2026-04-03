@@ -1,7 +1,7 @@
 
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareInstagram, FaSquareXTwitter } from "react-icons/fa6";
-
+import logo from "../assets/imk21re.png";
 export default function Footer() {
   return (
     <footer className="bg-[#ffffff] text-[#0f172bb1] px-6 md:px-16 py-12">
@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Logo */}
           <div className="flex items-center gap-3 mb-4">
             <div className="bg-[#FE9A00] p-2 rounded-lg">
-              <div className="h-15 w-15 bg-center bg-cover bg-[url(./assets/imk21re.png)]" />
+              <div style={{ backgroundImage:`url(${logo})`}} className="h-15 w-15 bg-center bg-cover " />
             </div>
             <h2 className="text-white text-xl font-semibold">BuildPro</h2>
           </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { SiTicktick } from "react-icons/si";
+import logo from "../assets/crane.png"
 
 import "./../App.css"
 
@@ -10,7 +11,7 @@ export default function Hero() {
       className="min-w-full  flex items-center justify-center min-h-screen bg-[#ffffff] 
 bg-[linear-gradient(rgba(0,0,0,0.04)_1px,transparent_1px),linear-gradient(to_right,rgba(0,0,0,0.04)_1px,transparent_1px)] 
 bg-size-[60px_60px]"
-    ><div className="bg-[url(/assets/crane.png)] w-50 h-50 bg-center bg-cover absolute md:left-10 md:top-120 top-50 md:scale-100 scale-75 left-1/2 md:translate-0 -translate-x-1/2 -translate-y-1/2  " />
+    ><div style={{ backgroundImage:`url(${logo})`}} className=" w-50 h-50 bg-center bg-cover absolute md:left-10 md:top-120 top-50 md:scale-100 scale-75 left-1/2 md:translate-0 -translate-x-1/2 -translate-y-1/2  " />
     <h1 className="md:text-[16rem] text-8xl md:top-20 top-25 font-serif absolute left-2 md:left-5 text-[#8b8b8b1d]">IMK</h1>
     <h1 className="  md:text-[16rem] text-8xl md:bottom-5 top-60 font-serif absolute md:top-80 md:right-2 text-[#8b8b8b1d]">INFRAT</h1>
     <div></div>
@@ -30,7 +31,7 @@ bg-size-[60px_60px]"
           </h2>
         </div>
         <div>
-          <h4 className="md:w-170 text-sm md:text-lg px- min-w-full text text-[#0F172B] whitespace-pre-line text-center">
+          <h4 className="md:w-170 text-sm md:text-lg  min-w-full text text-[#0F172B] whitespace-pre-line text-center">
             From groundbreaking to ribbon-cutting, we deliver exceptional
             construction services with precision, quality, and unwavering
             commitment to your vision.
@@ -46,7 +47,7 @@ bg-size-[60px_60px]"
           
 <button className="w-68 md:w-65 cssbuttons-io-button">
   Request An Estimate
-  <div class="icon">
+  <div className="icon">
     <svg
       height="24"
       width="24"
@@ -56,7 +57,7 @@ bg-size-[60px_60px]"
       <path d="M0 0h24v24H0z" fill="none"></path>
       <path
         d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-        fill="c#0F172B"
+        fill="#0F172B"
       ></path>
     </svg>
   </div>

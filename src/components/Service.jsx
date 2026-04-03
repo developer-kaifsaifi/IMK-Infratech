@@ -4,12 +4,12 @@ import { GiCargoCrane, GiIBeam } from "react-icons/gi";
 import { HiScale } from "react-icons/hi";
 import { IoHomeOutline } from "react-icons/io5";
 import { PiBuilding, PiBuildings, PiShovelBold } from "react-icons/pi";
-
+import logo from "../assets/worker.png"
 export default function Service() {
   return (
 
     <div className="w-full px-10 md:px-10 h-480 md:h-220 relative bg-[#ffffff]">
-      <div className="bg-[url(/assets/worker.png)] bg-center bg-cover absolute top-50 left-1/2 md:left-[90%] md:translate-x-0 md:translate-y-0  -translate-x-1/2 -translate-y-1/2 md:top-10 md:right-10  h-30 w-30"/>
+      <div style={{ backgroundImage:`url(${logo})`}} className=" bg-center bg-cover absolute top-50 left-1/2 md:left-[90%] md:translate-x-0 md:translate-y-0  -translate-x-1/2 -translate-y-1/2 md:top-10 md:right-10  h-30 w-30"/>
       <div className="  relative md:px-80 flex flex-col gap-5 items-center justify-center pb-10 pt-80 md:pt-15">
         <div className=" md:scale-100 scale-90 font-extrabold  flex items-center justify-center gap-3 px-5 py-1.5">
           <h5 className="text-[#FE9A00]"> WHAT WE OFFER</h5>

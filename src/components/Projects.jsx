@@ -2,13 +2,13 @@ import React from 'react'
 import "./swiper.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
-
+import logo from "../assets/beam.png"
 // Import Swiper styles
 import 'swiper/css';
 export default function Projects() {
   return (
     <div className="w-full md:py-20 h-670 px-10 md:px-10 md:h-760 relative bg-[#ffffff]">
-          <div className="bg-[url(./assets/beam.png)] bg-center bg-cover absolute top-40 left-1/2 md:left-[2%] md:translate-x-0 md:translate-y-0  -translate-x-1/2 -translate-y-1/2 md:top-10 md:right-10  h-30 w-30"/>
+          <div style={{ backgroundImage:`url(${logo})`}} className=" bg-center bg-cover absolute top-40 left-1/2 md:left-[2%] md:translate-x-0 md:translate-y-0  -translate-x-1/2 -translate-y-1/2 md:top-10 md:right-10  h-30 w-30"/>
           <div className="  relative md:px-80 flex flex-col gap-5 items-center justify-center pb-10 pt-80 md:pt-15">
             <div className=" md:scale-100 scale-90 font-extrabold  flex items-center justify-center gap-3 px-5 py-1.5">
               <h5 className=" text-[#0F172B]">OUR PORTFOLIO</h5>
