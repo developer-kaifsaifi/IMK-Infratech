@@ -76,7 +76,8 @@
 
 import logo from "../assets/imk21re.png"; // path adjust karo
 import { useEffect, useState } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
+
+import { TiThMenu } from "react-icons/ti";
 import { Link, NavLink, useLocation } from "react-router-dom";
 
 const navItems = [
@@ -108,7 +109,7 @@ export default function Navbar() {
           <div className="h-15 w-15 bg-center bg-cover bg-[url(/assets/imk21re.png)]" style={{ backgroundImage:`url(${logo})`}} />
 
           {/* HAMBURGER */}
-          <GiHamburgerMenu
+          <TiThMenu
             onClick={() => setIsOpen(true)}
             className="md:hidden scale-200 fill-[#154E7B] cursor-pointer"
           />

@@ -1,9 +1,9 @@
-import React from "react";
+
 import { CiRuler } from "react-icons/ci";
 import { GiCargoCrane, GiIBeam } from "react-icons/gi";
-import { HiScale } from "react-icons/hi";
+
 import { IoHomeOutline } from "react-icons/io5";
-import { PiBuilding, PiBuildings, PiShovelBold } from "react-icons/pi";
+import {  PiBuildings, PiShovelBold } from "react-icons/pi";
 import logo from "../assets/worker.png"
 export default function Service() {
   return (

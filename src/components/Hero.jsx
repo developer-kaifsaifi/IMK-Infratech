@@ -1,5 +1,4 @@
-import React from "react";
-import { FaArrowRight } from "react-icons/fa";
+
 import { SiTicktick } from "react-icons/si";
 import logo from "../assets/crane.png"
 

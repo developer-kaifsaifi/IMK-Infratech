@@ -6,14 +6,17 @@ import ContactPage from './pages/ContactPage'
 import ProjectPage from './pages/ProjectPage'
 import ServicePage from './pages/ServicePage'
 import MainPage from './pages/MainPage'
+import ScrollToTop from './components/ScrollToTop'
 
 
 export default function App() {
   return (
-    
-
+    <>
+    <ScrollToTop />
     <Routes>
       {/* Layout Route */}
+   
+       
       <Route path="/" element={<HomeLayout />}>
         <Route index element={<MainPage/>} />
         <Route path="services" element={<ServicePage/>} />
@@ -21,5 +24,6 @@ export default function App() {
         <Route path="contact" element={<ContactPage/>} />
       </Route>
     </Routes>
+    </>
 )
 }
