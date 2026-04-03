@@ -9,21 +9,29 @@ import MainPage from './pages/MainPage'
 import ScrollToTop from './components/ScrollToTop'
 
 
-export default function App() {
-  return (
-    <>
-    <ScrollToTop />
-    <Routes>
-      {/* Layout Route */}
+// export default function App() {
+//   return (
+//     <>
+//     <ScrollToTop />
+//     <Routes>
+//       {/* Layout Route */}
    
        
-      <Route path="/" element={<HomeLayout />}>
-        <Route index element={<MainPage/>} />
-        <Route path="services" element={<ServicePage/>} />
-        <Route path="projects" element={<ProjectPage/>} />
-        <Route path="contact" element={<ContactPage/>} />
-      </Route>
-    </Routes>
-    </>
-)
+//       <Route path="/" element={<HomeLayout />}>
+//         <Route index element={<MainPage/>} />
+//         <Route path="services" element={<ServicePage/>} />
+//         <Route path="projects" element={<ProjectPage/>} />
+//         <Route path="contact" element={<ContactPage/>} />
+//       </Route>
+//     </Routes>
+//     </>
+// )
+// }
+
+import React from 'react'
+
+export default function App() {
+  return (
+    <div>Hello</div>
+  )
 }
