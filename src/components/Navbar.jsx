@@ -106,7 +106,7 @@ export default function Navbar() {
         <nav className="w-full flex items-center justify-between md:justify-between">
           
           {/* LOGO */}
-          <div className="h-15 w-15 ml-2 bg-center bg-cover " style={{ backgroundImage:`url(${logo})`}} />
+          <img src={logo} loading="lazy" className="h-15 w-15 ml-2 bg-center bg-cover " />
 
           {/* HAMBURGER */}
           <TiThMenu

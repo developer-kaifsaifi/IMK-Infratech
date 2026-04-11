@@ -2,7 +2,9 @@
 import { SiTicktick } from "react-icons/si";
 import logo from "../assets/crane.png"
 
+
 import "./../App.css"
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -10,7 +12,7 @@ export default function Hero() {
       className="min-w-full  flex items-center justify-center min-h-screen bg-[#ffffff] 
 bg-[linear-gradient(rgba(0,0,0,0.04)_1px,transparent_1px),linear-gradient(to_right,rgba(0,0,0,0.04)_1px,transparent_1px)] 
 bg-size-[60px_60px]"
-    ><div style={{ backgroundImage:`url(${logo})`}} className=" w-50 h-50 bg-center bg-cover absolute md:left-10 md:top-120 top-50 md:scale-100 scale-75 left-1/2 md:translate-0 -translate-x-1/2 -translate-y-1/2  " />
+    ><img loading="lazy" src={logo} className=" w-50 h-50 bg-center bg-cover absolute md:left-10 md:top-120 top-50 md:scale-100 scale-75 left-1/2 md:translate-0 -translate-x-1/2 -translate-y-1/2  " />
     <h1 className="md:text-[16rem] text-8xl md:top-20 top-25 font-serif absolute left-2 md:left-5 text-[#8b8b8b1d]">IMK</h1>
     <h1 className="  md:text-[16rem] text-8xl md:bottom-5 top-60 font-serif absolute md:top-80 md:right-2 text-[#8b8b8b1d]">INFRAT</h1>
     <div></div>
@@ -44,8 +46,8 @@ bg-size-[60px_60px]"
             </span>
           </button> */}
           
-<button className="w-68 md:w-65 cssbuttons-io-button">
-  Request An Estimate
+ <Link to="/contact"><button className="w-68 md:w-65 cssbuttons-io-button">
+ Request An Estimate
   <div className="icon">
     <svg
       height="24"
@@ -60,11 +62,11 @@ bg-size-[60px_60px]"
       ></path>
     </svg>
   </div>
-</button>
+</button></Link>
 
-          <button className="bg-[#fe980000]  hover:cursor-pointer  text rounded-md md:px-4 md:py-3 px-0.5 hover:scale-95 transition-all ease-in-out flex items-center border border-[#0F172B] justify-center">
+          <Link to="/projects"><button className="bg-[#fe980000]  hover:cursor-pointer  text rounded-md md:px-4 md:py-3 px-0.5 hover:scale-95 transition-all ease-in-out flex items-center border border-[#0F172B] justify-center">
             View Our Work
-          </button>
+          </button></Link>
         </div>
         <div className="flex mt-5 items-center md:flex-row md:gap-4 flex-col justify-center gap-6 ">
           {" "}

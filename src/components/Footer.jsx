@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Logo */}
           <div className="flex items-center gap-3 mb-4">
             <div className="bg-[#FE9A00] p-2 rounded-lg">
-              <div style={{ backgroundImage:`url(${logo})`}} className="h-15 w-15 bg-center bg-cover " />
+              <img src={logo}  className="h-15 w-15 bg-center bg-cover " />
             </div>
             <h2 className="text-white text-xl font-semibold">BuildPro</h2>
           </div>
