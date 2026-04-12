@@ -10,6 +10,7 @@ import ScrollToTop from './components/ScrollToTop'
 import { useEffect, useState } from 'react'
 import Loader from './components/Loader'
 import { images } from './imageList'
+import AnimatedRoutes from './AnimatedRoutes'
 
 
 
@@ -51,9 +52,10 @@ export default function App() {
   }
 
   return (<>
-    <ScrollToTop />
-    <Routes>
-      {/* Layout Route */}
+    
+    <AnimatedRoutes/>
+    {/* <Routes>
+    
    
        
       <Route path="/" element={<HomeLayout />}>
@@ -62,7 +64,7 @@ export default function App() {
         <Route path="projects" element={<ProjectPage/>} />
         <Route path="contact" element={<ContactPage/>} />
       </Route>
-    </Routes>
+    </Routes> */}
     </>)
 }
 
