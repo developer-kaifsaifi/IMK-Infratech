@@ -27,8 +27,7 @@ export default function Footer() {
 
           {/* Address */}
           <p className="text-[#0f172be9] text-sm">
-            123 Construction Ave <br />
-            Building City, ST 12345
+            Khora Colony, Sector 62a, Noida,<br /> Ghaziabad, Uttar Pradesh - 201309
           </p>
 
           {/* Phone */}

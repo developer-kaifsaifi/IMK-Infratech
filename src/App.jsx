@@ -11,6 +11,7 @@ import { useEffect, useState } from 'react'
 import Loader from './components/Loader'
 import { images } from './imageList'
 import AnimatedRoutes from './AnimatedRoutes'
+import { ToastContainer } from 'react-toastify'
 
 
 
@@ -52,7 +53,7 @@ export default function App() {
   }
 
   return (<>
-    
+      <ToastContainer />
     <AnimatedRoutes/>
     {/* <Routes>
     
